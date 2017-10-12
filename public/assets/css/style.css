@@ -24,6 +24,7 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 100;
 }
 
 .navBarContent{
@@ -81,8 +82,46 @@ body {
 
 .contentBlock{
     background-color: grey;
-    width: 400px;
+    background: url("/public/assets/happy.jpg");
+    background-size: cover;
+    position: relative;
+    color: white;
+    width: 425px;
     height: 700px;
+    float: left;
+}
+
+.contentBlockSign{
+    background: url("/public/assets/school.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 380px;
+    height: 400px;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contentBlockList{
+    background-color: #dcdcdc;
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 400px;
+    float: right;
+    display: inline-block;
+}
+
+
+
+.contentBlockTitle{
+    background: rgba(63, 110, 162, 0.69);
+    width: inherit;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
 }
 
 .logo{
