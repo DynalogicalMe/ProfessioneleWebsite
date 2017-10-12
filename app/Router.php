@@ -16,9 +16,9 @@ class Router {
         return self::$routes;
     }
 
-    public static function name($input){
+    public static function getPath($routeName){
         foreach (self::$routes as $route){
-            if($input == $route['as'] || $input == $route['link']){
+            if($routeName == $route['as'] || $routeName == $route['link']){
                 echo ROOT_PATH . '/' . $route['link'];
                 break;
             }
