@@ -124,6 +124,12 @@ body {
     bottom: 0;
 }
 
+.contentBlockTitle h2{
+    display: inline-block;
+    margin: 0;
+    margin-top: 25px;
+}
+
 .logo{
     width: 150px;
     position: relative;
