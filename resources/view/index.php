@@ -13,5 +13,7 @@
         <?php include_once($urlInfo); ?>
 
     </div>
+
+    <?php include_once("resources/layout/footer.php"); ?>
     </body>
 </html>

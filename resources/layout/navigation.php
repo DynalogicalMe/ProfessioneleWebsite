@@ -14,7 +14,7 @@
 
         <a href="<?php Router::getPath('studenten'); ?>" >
             <div class="navBarItem">
-                <i class="material-icons">person</i> Studenten
+                <i class="material-icons">school</i> Studenten
             </div>
         </a>
 

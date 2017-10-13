@@ -1,1 +1,1 @@
-FOOTER
+<div class="footer">© Mondriaan Hogeschool - 2017</div>

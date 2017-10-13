@@ -3,16 +3,29 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 .content{
     display: inline-block;
     max-width: 1024px;
     width: 100%;
-    min-height: 2000px;
+    min-height: 500px;
     background-color: white;
-    margin-top: 0px;
+    margin-top: 15px;
     padding: 10px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.footer{
+    background-color: #457eb7;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    line-height: 50px;
+    color: white;
+    height: 50px;
 }
 
 .navBar{
@@ -28,7 +41,8 @@ body {
 }
 
 .navBarContent{
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     height: 50px;
     display: inline-block;
 }
@@ -50,7 +64,6 @@ body {
 
 .navBarItemRight{
     float: right;
-    margin-right: -10px;
 }
 
 .navBarItem:hover{
@@ -75,7 +88,8 @@ body {
 }
 
 .bannerContent{
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     height: 200px;
     display: inline-block;
 }
@@ -84,6 +98,7 @@ body {
     background-color: grey;
     background: url("/public/assets/happy.jpg");
     background-size: cover;
+    background-position: center;
     position: relative;
     color: white;
     width: 425px;
@@ -104,6 +119,20 @@ body {
     margin-right: 10px;
 }
 
+.contentBlockChoose{
+    background: url("/public/assets/calc.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 590px;
+    height: 290px;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
 .contentBlockList{
     background-color: #dcdcdc;
     position: relative;
@@ -114,7 +143,61 @@ body {
     display: inline-block;
 }
 
+@media (max-width: 1024px) {
+    /* CSS that should be displayed if width is equal to or less than 1024PX goes here */
 
+    .content{
+        padding: 0px;
+    }
+    .contentBlock{
+        background-color: grey;
+        background: url("/public/assets/happy.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+    }
+
+    .contentBlockSign{
+        background-color: grey;
+        background: url("/public/assets/school.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    .contentBlockChoose{
+        background-color: grey;
+        background: url("/public/assets/calc.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+    }
+
+
+    .contentBlockList{
+        background-color: #dcdcdc;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+    }
+}
 
 .contentBlockTitle{
     background: rgba(63, 110, 162, 0.69);

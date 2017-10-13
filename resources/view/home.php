@@ -19,3 +19,10 @@
     </div>
 </div>
 
+<div class="contentBlockChoose">
+    <div class="contentBlockTitle">
+        <h2>Muziek of toch Economie?</h2><br>
+        Een keuze maken is lastig, doe de studiekeuze check
+    </div>
+</div>
+
