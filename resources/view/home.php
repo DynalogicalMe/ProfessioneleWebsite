@@ -1,6 +1,28 @@
-<ul>
-    <li><a href="<?php Router::name('home'); ?>">Home</a></li>
-    <li><a href="<?php Router::name('example'); ?>">Uitleg - Example</a></li>
-    <li><a href="<?php Router::name('contact'); ?>">Contact</a></li>
-    <li><a href="<?php Router::name('stefan'); ?>">Stefan</a></li>
-</ul>
+
+<div class="contentBlock">
+    <div class="contentBlockTitle">
+        <div class="contentBlockTitle">
+            <h2>GESLAAGD!</h2><br>
+            Mondrian Hogeschool feliciteert alle geslaagden 2017.
+        </div>
+    </div>
+</div>
+
+<div class="contentBlockList">
+
+</div>
+
+<div class="contentBlockSign">
+    <div class="contentBlockTitle">
+        <h2>Aangemeld. En nu?</h2><br>
+        Alles wat je moet weten voor het nieuwe schooljaar
+    </div>
+</div>
+
+<div class="contentBlockChoose">
+    <div class="contentBlockTitle">
+        <h2>Muziek of toch Economie?</h2><br>
+        Een keuze maken is lastig, doe de studiekeuze check
+    </div>
+</div>
+

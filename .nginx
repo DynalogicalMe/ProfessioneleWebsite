@@ -1,0 +1,7 @@
+#Dit Location block kan gebruikt worden met Nginx ipv Apache
+
+location / {
+	  if (!-e $request_filename){
+	    rewrite ([^/]+)/?$ /index.php?id=$1 last;
+	  }
+	}

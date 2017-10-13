@@ -1,21 +1,223 @@
 body {
-    background-color: #013A75;
-    color: white;
-    margin: 0;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
-a {
-    color: white;
-}
-
-#header-error {
-    background-color: darkred;
+.content{
+    display: inline-block;
+    max-width: 1024px;
     width: 100%;
-    height: 30px;
-    margin-bottom: 20px;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 100px;
+    position: relative;
 }
 
-#header-error p {
+.footer{
+    background-color: #457eb7;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    line-height: 50px;
+    color: white;
+    height: 50px;
+}
+
+.navBar{
+    background-color: #457eb7;
+    box-shadow: 0px 1px 0px #3b6292;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navBarContent{
+    max-width: 1024px;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+.navBarItem{
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 51px;
     padding-left: 10px;
-    padding-top: 5px;
+    padding-right: 10px;
+    margin-right: 2px;
+    /*margin-left: -10px;*/
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color .1s ease-out;
+    color: white;
+}
+
+.navBarItemRight{
+    float: right;
+}
+
+.navBarItem:hover{
+    background-color: #4475af;
+}
+
+.navBarItem i{
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}
+
+.banner{
+    background-color: #3f6ea2;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.bannerContent{
+    max-width: 1024px;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+}
+
+.contentBlock{
+    background-color: grey;
+    background: url("/public/assets/happy.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 425px;
+    height: 700px;
+    float: left;
+}
+
+.contentBlockSign{
+    background: url("/public/assets/school.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 380px;
+    height: 400px;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contentBlockChoose{
+    background: url("/public/assets/calc.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 590px;
+    height: 290px;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.contentBlockList{
+    background-color: #dcdcdc;
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 400px;
+    float: right;
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    /* CSS that should be displayed if width is equal to or less than 1024PX goes here */
+
+    .content{
+        padding: 0px;
+    }
+    .contentBlock{
+        background-color: grey;
+        background: url("/public/assets/happy.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+    }
+
+    .contentBlockSign{
+        background-color: grey;
+        background: url("/public/assets/school.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    .contentBlockChoose{
+        background-color: grey;
+        background: url("/public/assets/calc.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+    }
+
+
+    .contentBlockList{
+        background-color: #dcdcdc;
+        position: relative;
+        color: white;
+        width: inherit;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+    }
+}
+
+.contentBlockTitle{
+    background: rgba(63, 110, 162, 0.69);
+    width: inherit;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.contentBlockTitle h2{
+    display: inline-block;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.logo{
+    width: 150px;
+    position: relative;
+    top: 20px;
+    height: 150px;
+    background: url("/public/assets/logo.svg");
+
 }

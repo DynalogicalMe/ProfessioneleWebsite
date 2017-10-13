@@ -5,8 +5,6 @@
 
 Router::add('', 'home', 'home');
 
-Router::add('mondriaan/example/', 'example/example', 'example');
+Router::add('studenten', 'studenten', 'studenten');
 
-Router::add('mondriaan/contact/', 'contact', 'contact');
-
-Router::add('stefan', 'stefan', 'stefan');
+Router::add('contact', 'contact', 'contact');
