@@ -221,3 +221,10 @@ body {
     background: url("/public/assets/logo.svg");
 
 }
+#facebook{
+	float: left;
+}
+
+#twitter{
+	float: right;
+}
