@@ -8,3 +8,5 @@ Router::add('', 'home', 'home');
 Router::add('studenten', 'studenten', 'studenten');
 
 Router::add('contact', 'contact', 'contact');
+
+Router::add('docenten', 'docenten', 'docenten');
