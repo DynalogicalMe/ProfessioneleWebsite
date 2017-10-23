@@ -16,6 +16,7 @@ body {
     padding: 10px;
     margin-bottom: 100px;
     position: relative;
+    text-align: left;
 }
 
 .footer{
@@ -112,7 +113,7 @@ body {
     background-position: center;
     position: relative;
     color: white;
-    width: 380px;
+    width: 440px;
     height: 400px;
     float: right;
     display: inline-block;
@@ -137,10 +138,31 @@ body {
     background-color: #dcdcdc;
     position: relative;
     color: white;
-    width: 200px;
+    width: 140px;
     height: 400px;
     float: right;
     display: inline-block;
+}
+
+.contentBlockListItem{
+    height: 50px;
+    line-height: 50px;
+    color: #1b1b1b;
+    text-align: left;
+    padding-left: 10px;
+    transition: background-color .2s ease-out;
+    cursor: hand;
+    border-bottom: solid 0.5px;
+    border-color: #b1b1b1;
+}
+
+.contentBlockListItem:hover{
+    background-color: #bfbfbf;
+}
+
+.contentBlockListItem i{
+    position: relative;
+    top: 6px;
 }
 
 @media (max-width: 1024px) {
@@ -205,6 +227,7 @@ body {
     height: 100px;
     position: absolute;
     bottom: 0;
+    text-align: center;
 }
 
 .contentBlockTitle h2{
@@ -219,5 +242,13 @@ body {
     top: 20px;
     height: 150px;
     background: url("/public/assets/logo.svg");
+    float: left;
 
+}
+
+.logoText{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
 }

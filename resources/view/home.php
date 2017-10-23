@@ -9,7 +9,18 @@
 </div>
 
 <div class="contentBlockList">
-
+    <div class="contentBlockListItem">
+        <i class="material-icons">person</i> Docenten
+    </div>
+    <div class="contentBlockListItem">
+        <i class="material-icons">photo_camera</i> Foto's
+    </div>
+    <div class="contentBlockListItem">
+        <i class="material-icons">public</i> Social Media
+    </div>
+    <div class="contentBlockListItem">
+        <i class="material-icons">question_answer</i> Vragen
+    </div>
 </div>
 
 <div class="contentBlockSign">
