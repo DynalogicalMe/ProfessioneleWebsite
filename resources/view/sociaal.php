@@ -1,5 +1,8 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\Mondriaan\public\assets\css\sociaal.css">
+	</head>
     <body>
         <div id="facebook">    
             <div id="fb-root"></div>
