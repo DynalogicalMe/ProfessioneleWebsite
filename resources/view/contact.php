@@ -3,7 +3,7 @@
         <form method="post" action="<?php Router::getPath('contactRedirect') ?>">
             <h1>Contact</h1>
 
-            <p>Via dit contactformulier kunt u contact opnemen met de Mondriaanhogeschool.</p>
+            <p>Via dit contactformulier kunt u contact opnemen met de Mondriaan Hogeschool.</p>
 
             <div class="formItem">
                 <label for="firstName">Voornaam: </label>
