@@ -1,0 +1,42 @@
+.opleidingInfo_Container {
+    
+}
+.opleidingInfo_Box {
+    
+}
+.opleidingInfo_Muziek {
+    width:40%;   
+    float:left;
+    margin-bottom: 150px;
+    margin-left:40px;
+    margin-top:30px;
+}
+.opleidingInfo_Economie {
+    width:40%;
+    margin-bottom: 150px;
+    float:right;
+    margin-right:40px;
+    margin-top:30px;
+}
+.opleidingInfo_List_Opleidingen {
+    list-style-type:none;
+    margin-right:40px;
+}
+.opleidingInfo_Muziek_Klassiek_Info {
+    margin-bottom: 150px;
+    clear:both;
+}
+.opleidingInfo_Tabel_Opleidingen {
+    margin:0 auto;
+    border:1px solid black;
+    padding: 5px;
+}
+.opleidingInfo_Economie_Bedeco_Info {
+    margin-bottom: 150px;
+}
+.opleidingInfo_Muziek_Pop_Info {
+    margin-bottom: 150px;
+}
+.opleidingInfo_Titel {
+    
+}
