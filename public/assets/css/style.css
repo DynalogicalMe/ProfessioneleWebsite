@@ -12,7 +12,7 @@ body {
     width: 100%;
     min-height: 500px;
     background-color: white;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 10px;
     margin-bottom: 100px;
     position: relative;
@@ -170,6 +170,8 @@ body {
 
     .content{
         padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 60px;
     }
     .contentBlock{
         background-color: grey;
@@ -252,4 +254,21 @@ body {
     position: relative;
     top: 90px;
     text-align: left;
+}
+
+
+@media (max-width: 500px) {
+    .navBarItem{
+        font-size: 0px;
+    }
+    .navBarItem i{
+        top: 9px;
+    }
+    .logoText{
+        font-size: 0px;
+    }
+    .logo{
+        float: none;
+        display: inline-block;
+    }
 }
