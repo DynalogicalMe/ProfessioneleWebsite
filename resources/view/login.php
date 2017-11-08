@@ -22,12 +22,13 @@ if(isset($_POST["submit"])){
         <div class="contentTitle"><i class="material-icons">lock</i> Login voordat je verder gaat</div>
 
         <div class="formItem">
-            <input class="input" type="text" placeholder="Username" name="username">
+            <input class="inputLogin" type="text" placeholder="Username" name="username">
         </div>
         <div class="formItem">
-            <input class="input" type="password" placeholder="Password" name="password">
+            <input class="inputLogin" type="password" placeholder="Password" name="password">
         </div>
-        <button type="submit" name="submit" class="button"><i class="material-icons">send</i> Login</button>
+
+        <button type="submit" name="submit" class="button buttonLogin"><i class="material-icons">send</i> Login</button>
 
         <?php if($wrong): ?>
            <br> <p>Inloggegevens fout, probeer het opnieuw</p>

@@ -175,6 +175,25 @@ input, label {
     top: 6px;
 }
 
+.foto{
+    width: 338px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.fotoDelete{
+    width: 338px;
+    height: 30px;
+    background-color: rgba(255,25,0,0.8);
+    text-align: center;
+    margin-top: 165px;
+    color: white;
+    padding-top: 5px;
+}
+
 @media (max-width: 1024px) {
     /* CSS that should be displayed if width is equal to or less than 1024PX goes here */
 
@@ -231,6 +250,14 @@ input, label {
         float: left;
         margin-top: 10px;
     }
+
+    .foto {
+        width: 100%;
+    }
+
+    .fotoDelete{
+        width: 100%;
+    }
 }
 
 .contentBlockTitle{
@@ -281,25 +308,6 @@ input, label {
         float: none;
         display: inline-block;
     }
-}
-
-.foto{
-    width: 338px;
-    height: 200px;
-    background-size: cover;
-    display: inline-block;
-    border-radius: 3px;
-    margin-bottom: 5px;
-}
-
-.fotoDelete{
-    width: 338px;
-    height: 30px;
-    background-color: rgba(255,25,0,0.8);
-    text-align: center;
-    margin-top: 165px;
-    color: white;
-    padding-top: 5px;
 }
 
 .contentTitle{
@@ -381,12 +389,8 @@ input, label {
     transition: background-color 70ms linear;
 }
 
-.input{
-    background-color: #e7e7e7;
-    padding: 5px;
-    border: 0;
-    width: 100%;
-    height: 30px;
+.buttonLogin{
+    left: 11px;
 }
 
 .teacherBox
@@ -502,11 +506,20 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="text"], input[type="email"], textarea {
+.inputLogin{
     border: 1px solid lightgray;
-    width: 200px;
-    height: 25px;
+    background-color: #e7e7e7;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.inputContact{
+    border: 1px solid lightgray;
+    background-color: #e7e7e7;
     padding-left: 5px;
+    width: 300px;
+    height: 30px;
 }
 
 textarea {
@@ -684,4 +697,3 @@ margin: 30px 100px 0 0;
 /* ################################################# */
 /* # Here ends the styling of the teachers page.   # */
 /* ################################################# */
->>>>>>> f9b87e1ee37e11813f2a67cbb3eb99f0476d7dbf

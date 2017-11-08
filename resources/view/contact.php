@@ -7,26 +7,26 @@
 
             <div class="formItem">
                 <label for="firstName">Voornaam: </label>
-                <input type="text" id="firstName" placeholder="Voornaam" name="firstName" required>
+                <input class="inputContact" type="text" id="firstName" placeholder="Voornaam" name="firstName" required>
             </div>
 
             <div class="formItem">
                 <label for="lastName">Achternaam: </label>
-                <input type="text" id="lastName" placeholder="Achternaam" name="lastName" required>
+                <input class="inputContact" type="text" id="lastName" placeholder="Achternaam" name="lastName" required>
             </div>
 
             <div class="formItem">
                 <label for="email">Email Adres: </label>
-                <input type="email" id="email" placeholder="Email Adres" name="email" required>
+                <input class="inputContact" type="email" id="email" placeholder="Email Adres" name="email" required>
             </div>
 
             <div class="formItem">
                 <label for="email">Bericht: </label>
-                <textarea name="textArea" placeholder="Beschrijf kort waarom u contact wilt opnemen met de Mondriaan Hogeschool" required></textarea>
+                <textarea class="inputContact" name="textArea" placeholder="Beschrijf kort waarom u contact wilt opnemen met de Mondriaan Hogeschool" required></textarea>
             </div>
 
             <div class="formItem">
-                <input type="submit" name="submit" value="Versturen">
+                <input class="inputContact" type="submit" name="submit" value="Versturen">
             </div>
         </form>
     </div>
