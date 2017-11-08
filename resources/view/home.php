@@ -1,5 +1,5 @@
 
-<a href="<?php Router::getPath('geslaagd'); ?>" >
+<a class="contentBlockA" href="<?php Router::getPath('geslaagd'); ?>" >
 <div class="contentBlock">
     <div class="contentBlockTitle">
         <div class="contentBlockTitle">
@@ -31,7 +31,8 @@
         <i class="material-icons">question_answer</i> Vragen
     </div>
 </div>
-<a href="<?php Router::getPath('aangemeld'); ?>">
+
+<a class="contentBlockA" href="<?php Router::getPath('aangemeld'); ?>">
 <div class="contentBlockSign">
     <div class="contentBlockTitle">
         <h2>Aangemeld. En nu?</h2><br>
@@ -40,7 +41,7 @@
 </div>
 </a>
 
-<a href="<?php Router::getPath('studiekeuze'); ?>">
+<a class="contentBlockA" href="<?php Router::getPath('studiekeuze'); ?>">
 <div class="contentBlockChoose">
     <div class="contentBlockTitle">
         <h2>Muziek of toch Economie?</h2><br>
