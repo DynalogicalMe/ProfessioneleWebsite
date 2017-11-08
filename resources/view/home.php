@@ -11,25 +11,31 @@
 </a>
 
 <div class="contentBlockList">
-    <div class="contentBlockListItem">
-        <i class="material-icons">person</i> Docenten
-    </div>
-    <a href="fotos">
+    <a href="<?php Router::getPath('docenten'); ?>">
+        <div class="contentBlockListItem">
+            <i class="material-icons">person</i> Docenten
+        </div>
+    </a>
+    <a href="<?php Router::getPath('fotos'); ?>">
         <div class="contentBlockListItem">
             <i class="material-icons">photo_camera</i> Foto's
         </div>
     </a>
-    <a href="fotobeheer">
+    <a href="<?php Router::getPath('fotobeheer'); ?>">
         <div class="contentBlockListItem">
             <i class="material-icons">cloud_upload</i> Foto beheer
         </div>
     </a>
-    <div class="contentBlockListItem">
-        <i class="material-icons">public</i> Social Media
-    </div>
-    <div class="contentBlockListItem">
-        <i class="material-icons">question_answer</i> Vragen
-    </div>
+    <a href="<?php Router::getPath('sociaal'); ?>">
+        <div class="contentBlockListItem">
+            <i class="material-icons">public</i> Social Media
+        </div>
+    </a>
+    <a href="<?php Router::getPath('studiekeuze'); ?>">
+        <div class="contentBlockListItem">
+            <i class="material-icons">question_answer</i> Vragen
+        </div>
+    </a>
 </div>
 <a href="<?php Router::getPath('aangemeld'); ?>">
 <div class="contentBlockSign">

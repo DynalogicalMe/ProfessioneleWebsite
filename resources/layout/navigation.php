@@ -13,7 +13,7 @@
             </div>
         </a>
 
-        <a href="<?php //Router::getPath('studenten'); ?>" >
+        <a href="<?php Router::getPath('OpleidingenInfo'); ?>" >
             <div class="navBarItem">
                 <i class="material-icons">school</i> Opleidingen
             </div>
