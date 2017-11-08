@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Mondriaan Hogeschool - </title>
+        <title>Mondriaan Hogeschool</title>
         <?php include_once('resources/layout/head.php') ?>
     </head>
     <body>

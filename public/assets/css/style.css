@@ -7,8 +7,9 @@ body {
 }
 
 
-a{
+a {
     text-decoration: none;
+}
 
 input, label {
     display:block;
