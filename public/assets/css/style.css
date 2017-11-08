@@ -6,8 +6,13 @@ body {
     position: relative;
 }
 
+
+a{
+    text-decoration: none;
+
 input, label {
     display:block;
+
 }
 
 .content{
@@ -16,10 +21,11 @@ input, label {
     width: 100%;
     min-height: 500px;
     background-color: white;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 10px;
     margin-bottom: 100px;
     position: relative;
+    text-align: left;
 }
 
 .footer{
@@ -116,7 +122,7 @@ input, label {
     background-position: center;
     position: relative;
     color: white;
-    width: 380px;
+    width: 440px;
     height: 400px;
     float: right;
     display: inline-block;
@@ -141,10 +147,31 @@ input, label {
     background-color: #dcdcdc;
     position: relative;
     color: white;
-    width: 200px;
+    width: 140px;
     height: 400px;
     float: right;
     display: inline-block;
+}
+
+.contentBlockListItem{
+    height: 50px;
+    line-height: 50px;
+    color: #1b1b1b;
+    text-align: left;
+    padding-left: 10px;
+    transition: background-color .2s ease-out;
+    cursor: hand;
+    border-bottom: solid 0.5px;
+    border-color: #b1b1b1;
+}
+
+.contentBlockListItem:hover{
+    background-color: #bfbfbf;
+}
+
+.contentBlockListItem i{
+    position: relative;
+    top: 6px;
 }
 
 @media (max-width: 1024px) {
@@ -152,6 +179,8 @@ input, label {
 
     .content{
         padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 60px;
     }
     .contentBlock{
         background-color: grey;
@@ -209,6 +238,7 @@ input, label {
     height: 100px;
     position: absolute;
     bottom: 0;
+    text-align: center;
 }
 
 .contentBlockTitle h2{
@@ -223,6 +253,141 @@ input, label {
     top: 20px;
     height: 150px;
     background: url("/public/assets/logo.svg");
+    float: left;
+
+}
+
+.logoText{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 90px;
+    text-align: left;
+}
+
+
+@media (max-width: 500px) {
+    .navBarItem{
+        font-size: 0px;
+    }
+    .navBarItem i{
+        top: 9px;
+    }
+    .logoText{
+        font-size: 0px;
+    }
+    .logo{
+        float: none;
+        display: inline-block;
+    }
+}
+
+.foto{
+    width: 338px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.fotoDelete{
+    width: 338px;
+    height: 30px;
+    background-color: rgba(255,25,0,0.8);
+    text-align: center;
+    margin-top: 165px;
+    color: white;
+    padding-top: 5px;
+}
+
+.contentTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contentTitle i{
+    position: relative;
+    top: 5px;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+    background-color: #457eb7;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    cursor: hand;
+}
+
+.fileContainer i{
+    position: relative;
+    top: 5px;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: none;
+
+}
+
+.formItem{
+    margin-bottom: 10px;
+}
+
+.loginPage{
+    width: inherit;
+    height: 500px;
+    text-align: center;
+}
+
+.loginContent{
+    display: inline-block;
+    margin-top: 180px;
+}
+
+.button{
+    color: #ffffff;
+    min-width: 75px;
+    min-height: 30px;
+    border:none;
+    border-bottom: 2px solid #426483;
+    border-radius: 2px;
+    background-color: #6591b3;
+    -webkit-transition: background-color 70ms linear;
+    -moz-transition: background-color 70ms linear;
+    -o-transition: background-color 70ms linear;
+    -ms-transition: background-color 70ms linear;
+    transition: background-color 70ms linear;
+    position: relative;
+    float: right;
+}
+
+.button i{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+
+
+.button:hover {
+    background-color: #527897;
+    cursor: pointer;
+    -webkit-transition: background-color 70ms linear;
+    -moz-transition: background-color 70ms linear;
+    -o-transition: background-color 70ms linear;
+    -ms-transition: background-color 70ms linear;
+    transition: background-color 70ms linear;
+}
+
+.input{
+    background-color: #e7e7e7;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    height: 30px;
+}
 
 }
 
@@ -354,3 +519,4 @@ textarea {
     width: 400px;
     resize: none;
 }
+

@@ -9,6 +9,15 @@ Router::add('studenten', 'studenten', 'studenten');
 
 Router::add('contact', 'contact', 'contact');
 
+
+Router::add('overons', 'overons', 'overons');
+
+Router::add('fotos', 'fotos', 'fotos');
+
+Router::add('fotobeheer', 'fotobeheer', 'fotobeheer');
+
+Router::add('login', 'login', 'login');
+
 Router::add('docenten', 'docenten', 'docenten');
 
 Router::add('geslaagd', 'geslaagd', 'geslaagd');

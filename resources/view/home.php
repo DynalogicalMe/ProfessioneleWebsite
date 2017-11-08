@@ -11,7 +11,25 @@
 </a>
 
 <div class="contentBlockList">
-
+    <div class="contentBlockListItem">
+        <i class="material-icons">person</i> Docenten
+    </div>
+    <a href="fotos">
+        <div class="contentBlockListItem">
+            <i class="material-icons">photo_camera</i> Foto's
+        </div>
+    </a>
+    <a href="fotobeheer">
+        <div class="contentBlockListItem">
+            <i class="material-icons">cloud_upload</i> Foto beheer
+        </div>
+    </a>
+    <div class="contentBlockListItem">
+        <i class="material-icons">public</i> Social Media
+    </div>
+    <div class="contentBlockListItem">
+        <i class="material-icons">question_answer</i> Vragen
+    </div>
 </div>
 <a href="<?php Router::getPath('aangemeld'); ?>">
 <div class="contentBlockSign">
