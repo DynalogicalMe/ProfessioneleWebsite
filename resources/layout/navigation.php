@@ -1,6 +1,7 @@
 <div class="banner">
     <div class="bannerContent">
         <div class="logo"></div>
+        <div class="logoText">Mondriaan Hogeschool</div>
     </div>
 </div>
 <div class="navBar">
@@ -12,15 +13,17 @@
             </div>
         </a>
 
-        <a href="<?php Router::getPath('studenten'); ?>" >
+        <a href="<?php //Router::getPath('studenten'); ?>" >
             <div class="navBarItem">
-                <i class="material-icons">school</i> Studenten
+                <i class="material-icons">school</i> Opleidingen
             </div>
         </a>
 
-        <div class="navBarItem">
-            <i class="material-icons">person</i> Docenten
-        </div>
+        <a href="<?php Router::getPath('overons'); ?>" >
+            <div class="navBarItem">
+                <i class="material-icons">info</i> Over ons
+            </div>
+        </a>
 
         <a href="<?php Router::getPath('contact'); ?>" >
             <div class="navBarItem navBarItemRight">
