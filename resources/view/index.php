@@ -1,4 +1,4 @@
-<!Doctype>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Mondriaan Hogeschool - </title>
