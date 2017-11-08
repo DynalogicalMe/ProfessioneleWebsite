@@ -6,6 +6,10 @@ body {
     position: relative;
 }
 
+a{
+    text-decoration: none;
+}
+
 .content{
     display: inline-block;
     max-width: 1024px;
@@ -271,4 +275,111 @@ body {
         float: none;
         display: inline-block;
     }
+}
+
+.foto{
+    width: 338px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.fotoDelete{
+    width: 338px;
+    height: 30px;
+    background-color: rgba(255,25,0,0.8);
+    text-align: center;
+    margin-top: 165px;
+    color: white;
+    padding-top: 5px;
+}
+
+.contentTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contentTitle i{
+    position: relative;
+    top: 5px;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+    background-color: #457eb7;
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    cursor: hand;
+}
+
+.fileContainer i{
+    position: relative;
+    top: 5px;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: none;
+
+}
+
+.formItem{
+    margin-bottom: 10px;
+}
+
+.loginPage{
+    width: inherit;
+    height: 500px;
+    text-align: center;
+}
+
+.loginContent{
+    display: inline-block;
+    margin-top: 180px;
+}
+
+.button{
+    color: #ffffff;
+    min-width: 75px;
+    min-height: 30px;
+    border:none;
+    border-bottom: 2px solid #426483;
+    border-radius: 2px;
+    background-color: #6591b3;
+    -webkit-transition: background-color 70ms linear;
+    -moz-transition: background-color 70ms linear;
+    -o-transition: background-color 70ms linear;
+    -ms-transition: background-color 70ms linear;
+    transition: background-color 70ms linear;
+    position: relative;
+    float: right;
+}
+
+.button i{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+
+
+.button:hover {
+    background-color: #527897;
+    cursor: pointer;
+    -webkit-transition: background-color 70ms linear;
+    -moz-transition: background-color 70ms linear;
+    -o-transition: background-color 70ms linear;
+    -ms-transition: background-color 70ms linear;
+    transition: background-color 70ms linear;
+}
+
+.input{
+    background-color: #e7e7e7;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    height: 30px;
 }

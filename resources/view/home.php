@@ -12,9 +12,16 @@
     <div class="contentBlockListItem">
         <i class="material-icons">person</i> Docenten
     </div>
-    <div class="contentBlockListItem">
-        <i class="material-icons">photo_camera</i> Foto's
-    </div>
+    <a href="fotos">
+        <div class="contentBlockListItem">
+            <i class="material-icons">photo_camera</i> Foto's
+        </div>
+    </a>
+    <a href="fotobeheer">
+        <div class="contentBlockListItem">
+            <i class="material-icons">cloud_upload</i> Foto beheer
+        </div>
+    </a>
     <div class="contentBlockListItem">
         <i class="material-icons">public</i> Social Media
     </div>
