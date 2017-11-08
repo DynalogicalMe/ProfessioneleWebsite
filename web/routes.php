@@ -9,6 +9,8 @@ Router::add('studenten', 'studenten', 'studenten');
 
 Router::add('contact', 'contact', 'contact');
 
+Router::add('docenten', 'docenten', 'docenten');
+
 Router::add('geslaagd', 'geslaagd', 'geslaagd');
 
 Router::add('aangemeld', 'aangemeld', 'aangemeld');
