@@ -29,6 +29,4 @@ Router::add('studiekeuze', 'studiekeuze', 'studiekeuze');
 
 Router::add('contactRedirect', 'contactRedirect', 'contactRedirect');
 
-Router::add('Opleidingen', 'Opleidingen', 'Opleidingen');
-
 Router::add('OpleidingenInfo', 'OpleidingenInfo', 'OpleidingenInfo');

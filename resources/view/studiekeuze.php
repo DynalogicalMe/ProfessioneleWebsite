@@ -1,5 +1,5 @@
-De juiste studie kiezen is niet makkelijk. Wij van Mondriaan Hogeschool hebben hiervoor een studiekeuze check gemaakt.
-Met behulp van deze vragenlijst kunnen wij een advies geven welke studie het beste bij jou past. <br><br>
+<p>De juiste studie kiezen is niet makkelijk. Wij van Mondriaan Hogeschool hebben hiervoor een studiekeuze check gemaakt.
+Met behulp van deze vragenlijst kunnen wij een advies geven welke studie het beste bij jou past.</p>
 
 <?php
     $question1 = $question2 = $question3 = "";
