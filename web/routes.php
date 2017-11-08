@@ -9,6 +9,7 @@ Router::add('studenten', 'studenten', 'studenten');
 
 Router::add('contact', 'contact', 'contact');
 
+Router::add('sociaal', 'sociaal', 'sociaal');
 
 Router::add('overons', 'overons', 'overons');
 
